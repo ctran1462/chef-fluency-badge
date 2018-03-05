@@ -6,7 +6,7 @@
 
 if node['platform_family'] == "rhel"
 	package = "httpd"
-elslif node['platform_family'] == "debian"
+elsif node['platform_family'] == "debian"
 	package = "apache2"
 end
 
